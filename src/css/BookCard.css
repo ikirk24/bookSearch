@@ -1,0 +1,13 @@
+.bookCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0303031d;
+    padding: 4px;
+    border-radius: 16px;
+}
+
+.bookCard h3 {
+    font-size: 16px;
+}

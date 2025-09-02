@@ -1,0 +1,35 @@
+.home {
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding-top: 50px;
+    
+}
+
+.search-form {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    width: 25%;
+    border: 1px solid white;
+}
+
+.search-form input {
+    width: 100%;
+}
+
+.search-form input:focus {
+    border: none; 
+    outline: none;
+}
+
+.search-form button:hover {
+    border: none;
+    outline: none;
+}
