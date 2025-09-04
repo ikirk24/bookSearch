@@ -31,7 +31,7 @@ function HomePage() {
 
 
     <div className="home">
-    
+    <h3>Simple Book Search</h3>
     <form onSubmit={handleSearch} className="search-form">
         <input type="text"
         placeholder="Search for any author or book..."
